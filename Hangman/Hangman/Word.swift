@@ -10,13 +10,18 @@ import Foundation
 import SwiftyJSON
 class Word{
     var wordList:[String] = []
-    var api:RestfulAPIManager
+    var api:RestfulAPIManager?
     init(){
         
+        
+    }
+    
+    func getWordList(completionHandler: @escaping ([String]?)->Void){
         api = RestfulAPIManager()
-        api.getWordFromServer { (res, error) in
+        api?.getWordFromServer { (res, error) in
             if(error != nil){
                 print(error)
+                completionHandler(nil)
             }
             else{
                 if let data = res{
@@ -25,6 +30,7 @@ class Word{
                         self.wordList.append(word.string!)
                     }
                 }
+                completionHandler(self.wordList)
             }
         }
     }

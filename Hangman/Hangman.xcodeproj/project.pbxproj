@@ -16,6 +16,7 @@
 		D9BFF20F1EF1379F00D225A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BFF20D1EF1379F00D225A6 /* LaunchScreen.storyboard */; };
 		D9BFF21A1EF1379F00D225A6 /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFF2191EF1379F00D225A6 /* HangmanTests.swift */; };
 		D9BFF2251EF1379F00D225A6 /* HangmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFF2241EF1379F00D225A6 /* HangmanUITests.swift */; };
+		D9DF217C1EF7EAFE00B739F6 /* ImgHangman.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF217B1EF7EAFE00B739F6 /* ImgHangman.swift */; };
 		D9EA0B131EF24D080061F553 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA0B121EF24D080061F553 /* Word.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		D9BFF2201EF1379F00D225A6 /* HangmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BFF2241EF1379F00D225A6 /* HangmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanUITests.swift; sourceTree = "<group>"; };
 		D9BFF2261EF1379F00D225A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DF217B1EF7EAFE00B739F6 /* ImgHangman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgHangman.swift; sourceTree = "<group>"; };
 		D9EA0B121EF24D080061F553 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EA0B121EF24D080061F553 /* Word.swift */,
+				D9DF217B1EF7EAFE00B739F6 /* ImgHangman.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BFF2071EF1379F00D225A6 /* ViewController.swift in Sources */,
+				D9DF217C1EF7EAFE00B739F6 /* ImgHangman.swift in Sources */,
 				D9EA0B131EF24D080061F553 /* Word.swift in Sources */,
 				D9BFF2051EF1379F00D225A6 /* AppDelegate.swift in Sources */,
 				D973752B1EF146C40026715B /* RESTFUL_API_MANAGER.swift in Sources */,
